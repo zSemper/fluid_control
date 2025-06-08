@@ -1,0 +1,28 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "FluidStack1",
+      "check": "FluidStack"
+    },
+    {
+      "type": "input_value",
+      "name": "FluidStack2",
+      "check": "FluidStack"
+    }
+  ],
+  "inputsInline": true,
+  "output": "Boolean",
+  "colour": "#00c8d5",
+  "mcreator": {
+    "toolbox_id": "logicoperations",
+    "toolbox_init": [
+      "<value name=\"FluidStack1\"><block type=\"variables_get_fluidstack\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" is_player_var=\"false\" has_entity=\"false\"></mutation><field name=\"VAR\"></field></block></value>",
+      "<value name=\"FluidStack2\"><block type=\"variables_get_fluidstack\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" is_player_var=\"false\" has_entity=\"false\"></mutation><field name=\"VAR\"></field></block></value>"
+    ],
+    "inputs": [
+      "FluidStack1",
+      "FluidStack2"
+    ]
+  }
+}

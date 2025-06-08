@@ -1,0 +1,21 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "FluidStack",
+      "check": "FluidStack"
+    }
+  ],
+  "inputsInline": true,
+  "output": "Number",
+  "colour": "#5b67a5",
+  "mcreator": {
+    "toolbox_id": "fluid_type",
+    "toolbox_init": [
+      "<value name=\"FluidStack\"><block type=\"variables_get_fluidstack\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" is_player_var=\"false\" has_entity=\"false\"></mutation><field name=\"VAR\"></field></block></value>"
+    ],
+    "inputs": [
+      "FluidStack"
+    ]
+  }
+}
