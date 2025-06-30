@@ -1,6 +1,6 @@
 name: Bug report
 description: Create a report to help us improve (search for duplicates first)
-title: "[Bug: ]"
+title: "Bug: "
 labels: [bug]
 assignees: []
 body:
@@ -26,8 +26,8 @@ body:
     label: Minecraft Version
     description: Which minecraft version did you?
     options:
-     - Forge 1.20.1
      - NeoForge 1.21.1
+     - Forge 1.20.1
    validations:
      required: true
  - type: textarea
