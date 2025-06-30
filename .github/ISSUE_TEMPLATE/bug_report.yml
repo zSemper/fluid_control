@@ -1,6 +1,8 @@
 name: Bug report
 description: Create a report to help us improve (search for duplicates first)
-type: bug
+title: "[Bug: ]"
+labels: [bug]
+assignees: []
 body:
  - type: textarea
    attributes:
