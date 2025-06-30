@@ -42,5 +42,6 @@ body:
    attributes:
     label: Additional Context
     description: If you have any additional context about the issue
+    placeholder: Additional information
    validations:
-     required: false
+    required: false
